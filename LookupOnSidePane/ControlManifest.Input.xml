@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="VinnyComponents" constructor="LookupOnSidePane" version="0.0.1" display-name-key="LookupOnSidePane" description-key="LookupOnSidePane description" control-type="standard" >
+    <property name="lookup" display-name-key="Lookup" description-key="Lookup" of-type="Lookup.Simple" usage="bound" required="true" />
+
+    <property name="width" display-name-key="Width" description-key="Width" of-type="Whole.None" usage="input" required="false" />
+
+    <property description-key="Can Close" display-name-key="Can Close" name="canClose" required="false" usage="input" of-type="Enum">
+      <value name="Yes" display-name-key="Yes">1</value>
+      <value name="No" display-name-key="No">0</value>
+    </property> 
+
+    <property description-key="Hide Header" display-name-key="Hide Header" name="hideHeader" required="false" usage="input" of-type="Enum">
+      <value name="Yes" display-name-key="Yes">1</value>
+      <value name="No" display-name-key="No">0</value>
+    </property> 
+
+    <property description-key="Always Render" display-name-key="Always Render" name="alwaysRender" required="false" usage="input" of-type="Enum">
+      <value name="Yes" display-name-key="Yes">1</value>
+      <value name="No" display-name-key="No">0</value>
+    </property> 
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/LookupOnSidePane.css" order="1" />
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <resx path="strings/LookupOnSidePane.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>

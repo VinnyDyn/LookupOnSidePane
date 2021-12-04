@@ -1,0 +1,14 @@
+#LookupOnSidePaneButton {
+    vertical-align: middle;
+    font-weight: bold;
+    color: rgb(17, 96, 183);
+    border: 0px;
+    outline: 0px;
+    padding: 0px;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
