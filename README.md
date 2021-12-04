@@ -9,7 +9,7 @@ Allow that the Lookup fields be displayed on side panel.
 ### Enable To
 - Lookup.Simple
 
-![alt text](https://github.com/VinnyDyn/LookupOnSidePane/blob/master/images/control-config.png)
+![alt text](https://github.com/VinnyDyn/LookupOnSidePane/blob/main/images/control-config.png)
 
 ### Features
 1. Hide Header (y / n)
@@ -17,7 +17,7 @@ Allow that the Lookup fields be displayed on side panel.
 3. Display table's icons
 4. Set width
 
-![alt text](https://github.com/VinnyDyn/LookupOnSidePane/blob/master/images/control-config-features.png)
+![alt text](https://github.com/VinnyDyn/LookupOnSidePane/blob/main/images/control-config-features.png)
 
 #### Ready to use
 The [managed](https://github.com/VinnyDyn/LookupOnSidePane/releases/tag/0.1.0.0) solution is ideal for non developers. Import and use.
